@@ -16,6 +16,10 @@ public class Book {
         this.available_copies=available_copies;
     }
 
+    public int getId(){
+        return this.id;
+    }
+
     public String getName(){
         return this.book_name;
     }
