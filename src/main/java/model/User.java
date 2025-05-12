@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 public class User {
     int id;
-    String user_name;
+    String user_name, password;
     ArrayList<Book> issued_books;
 
-    User(int id, String name){
+    User(int id, String name, String password){
         this.id=id;
         this.user_name=name;
+        this.password=password;
     }
 
     public String getName(){
